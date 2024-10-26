@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loop 2 - Step 2</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <!--
+    FYI:
+    Textarea resize in the design is a native feature of browsers.
+    Also there is no close icon in the assets, so you should try to find another way of implementing it.
+  -->
+
+<div class="container">
+  <div class="box-account">
+    <div class="account-text">
+      <h2 class="account-heading">Account settings</h2>
+      <img class="account-image" src="img/exit.svg" alt="exit-icon" width="25" height="25">
+    </div>
+  
+    <form class="reg-form">
+      <div>
+        <img class="avatar" src="img/avatar.jpg" alt="avatar">
+      </div>
+      <div class="reg-form-fields">
+        <p class="text-p">Username</p>
+        <input class="reg-form-field" type="text" name="user_name" placeholder="Enter your username" aria-label="Username" required>
+        <div class="reg-form-field-flex">
+          <div class="reg-form-field-block">
+            <p class="text-p">First name</p>
+            <input class="reg-form-field" type="text" name="first_name" placeholder="Enter your first name" aria-label="First name" required>
+          </div>
+          <div class="reg-form-field-block">
+            <p class="text-p">Last name</p>
+            <input class="reg-form-field" type="text" name="last_name" placeholder="Enter your last name" aria-label="Last name" required>
+          </div>
+        </div>
+        <p class="text-p">Email</p>
+        <input class="reg-form-field" type="email" name="email" placeholder="Enter your email" aria-label="email" required><br>
+        <p class="text-p">Bio</p>
+        <textarea class="reg-form-field" name="textarea" id="textarea" rows="5" cols="21" placeholder="Tell about yourself"></textarea>
+      </div>
+      
+    </form>
+    <div class="button">
+      <button class="button-css button-cancel">Cancel</button>
+      <button class="button-css">Save</button>
+    </div>
+  </div>
+  
+</div>
+
+
+</body>
+</html>

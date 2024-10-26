@@ -1,0 +1,108 @@
+:root {
+    --bg-body: rgb(80, 75, 75); 
+    --bg-account: rgb(205, 205, 55); 
+    --bg-reg: white;
+    --text-color: gray;
+
+body {
+    background-color: var(--bg-body);
+}
+
+.container {
+    max-width: 600px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box-account {
+    width: auto;
+    height: 700px;
+    background-color: var(--bg-account);
+}
+
+.account-text {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.account-heading {
+    margin: 0;
+    margin-right: 200px;
+}
+
+.account-image:active {
+    opacity: 0.8;
+}
+
+.avatar {
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+    border-radius: 50%;
+}
+
+.reg-form {
+    position: relative;
+    top: 70px;
+    left: 100px;
+    width: 700px;
+    height: 450px;
+    background-color: var(--bg-reg);
+}
+
+.reg-form-fields {
+    margin-top: -50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.text-p {
+    font-size: 12px;
+    line-height: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.reg-form-field {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 0;
+    border-bottom: 1px solid gray;
+}
+
+
+.reg-form-field-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reg-form-field-block {
+    width: 100%;
+}
+
+.button {
+    margin-top: 120px;
+    margin-left: 400px;
+}
+
+.button-css {
+    border: none;
+    background-color: var(--bg-account);
+    color: dimgray;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.button-css:active {
+    opacity: 0.8;
+}
+
+.button-cancel {
+    margin-right: 20px;
+}
